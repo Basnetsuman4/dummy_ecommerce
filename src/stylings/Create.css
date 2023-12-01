@@ -1,0 +1,63 @@
+/* .CreateScrn{
+    display: flex;
+    flex-direction: column;
+} */
+.Upload{
+    background-color:white;
+    display: flex;
+    width: calc(100vw - 17rem);
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 10px 0px;
+    flex-shrink: 0;
+}
+.input{
+    display: flex;
+    flex-direction: column; 
+    margin: 0px 10px;
+    padding: 5px 10px;
+    align-items: center;
+}
+.ipField{
+    display: flex;
+    flex-direction: column; 
+    margin: 8px 5px;
+    width: 50%;
+}
+.ipField input , textarea{
+    margin-top: 5px;
+    border-radius: 8px;
+    min-height:36px;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    overflow: hidden;
+}
+textarea{
+    min-height: 5rem;
+}
+label{
+    font-size: 15px;
+    font-weight: 400;
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.submitBtn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color:rgb(63, 128, 248);
+    width: 8rem;
+    height: 2rem;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+button:hover{
+    background-color: rgb(0, 89, 255);
+}
